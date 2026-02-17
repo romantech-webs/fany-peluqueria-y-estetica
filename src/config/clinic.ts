@@ -1,281 +1,347 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Fany Peluquería y Estética Unisex",
+  logo: "/images/logo.png",
+  tagline: "Tu belleza en las mejores manos de Valdepeñas",
+  description: "Fany Peluquería y Estética Unisex es tu centro de confianza en Valdepeñas, Ciudad Real, con 4.8 estrellas en Google. Especialistas en coloración, corte, peinados y tratamientos estéticos personalizados. Estefanía y su equipo te ofrecen resultados naturales con productos de calidad premium. Desde 2010 cuidando tu imagen con profesionalidad y cercanía.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#C9A86C",
+    secondary: "#2D2D2D",
+    accent: "#D4A574",
+    neutral: "#FAF8F5"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
+  phone: "608 00 40 19",
+  whatsapp: "+34608004019",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
+    street: "C. Salida del Peral, 1, local 4b 2, 13300 Valdepeñas, Ciudad Real, España",
+    city: "Valdepeñas",
     province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    postalCode: "13300",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=18274942259204429102&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Fany%20Peluquer%C3%ADa%20y%20Est%C3%A9tica%20Unisex%20%4038.7659%2C-3.38275&z=16&output=embed",
+  coordinates: {
+    lat: 38.7659,
+    lng: -3.38275
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes",
+      hours: "Cerrado"
+    },
+    {
+      days: "martes - viernes",
+      hours: "10:00–14:00, 17:00–20:00"
+    },
+    {
+      days: "sábado",
+      hours: "9:00–14:00"
+    },
+    {
+      days: "domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.8,
+    count: 21,
+    url: "https://maps.google.com/?cid=18274942259204429102&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Ana belen Pereira Millon",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Gracias por vuestra profesionalidad,siempre me habéis echo lo que me gusta .\nLlevaba de peluquería en peluquería,hasta que di con esta,y no las dejo para nada\nGracias a Fanny y Toñi sois dos profesionales como la copa de un pino!!!\nY seguiré guiándome por ti Fanny siempre,xq siempre aciertas ,para verme como m gusta\nGracias",
+        date: "Hace un año"
       },
       {
-        author: "Javier Padilla",
+        author: "María González Rodríguez",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Peluquería y Estética Fanny, ¡mi sitio de confianza! Desde que fui la primera vez, ¡no he vuelto a ir a ningún otro sitio! Calidad en los productos y por supuesto en las manos de Estefanía. ¡Siempre salgo contenta con los resultados! Deseando ir de nuevo.",
+        date: "Hace 7 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Yaco",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Llevo varios años con ella y no la cambio por ninguna, te corta exactamente lo que le pides. Los peinados súper bonitos y el tinte de pelo igual. Muy profesional y amable. Los precios son económicos.",
+        date: "Hace 6 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "arancha nuñez",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Profesional , atenta , comprometida! Gracias fany por ayudarme a brillar en mi día!! Mi familia , amigas y yo, quedamos super contentas! Sin duda te elegiría mil veces",
+        date: "Hace 2 años"
       },
-    ],
+      {
+        author: "Aroa Salazar",
+        rating: 5,
+        text: "Fanny es una gran profesional y una experta en color. Si quieres un resultado natural te recomiendo que acudas a ella y te dejes asesorar. Saldrás encantada!",
+        date: "Hace 3 años"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "coloracion-experta",
+      name: "Coloración Experta",
+      description: "Especialistas en color natural y técnicas avanzadas de tinte. Analizamos tu tono de piel y estilo para crear el color perfecto que realce tu belleza. Utilizamos productos de alta gama que cuidan y protegen tu cabello.",
+      benefits: [
+        "Resultados naturales y luminosos",
+        "Asesoramiento personalizado de color",
+        "Productos premium que cuidan tu pelo"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "corte-precision",
+      name: "Corte de Precisión",
+      description: "Cortamos exactamente lo que nos pides, adaptándonos a tu estilo y tipo de cabello. Técnicas actualizadas para melenas, bobs, capas y cortes modernos. Conseguimos el resultado que imaginas.",
+      benefits: [
+        "Corte exacto según tus preferencias",
+        "Técnicas adaptadas a cada tipo de pelo",
+        "Acabado profesional duradero"
+      ],
+      icon: "Zap"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "peinados-eventos",
+      name: "Peinados para Eventos",
+      description: "Peinados espectaculares para bodas, comuniones y eventos especiales. Diseñamos el look perfecto para tu día importante, desde recogidos elegantes hasta ondas naturales. Te ayudamos a brillar en cada ocasión.",
+      benefits: [
+        "Diseños personalizados para tu evento",
+        "Prueba previa incluida",
+        "Fijación duradera todo el día"
+      ],
+      icon: "Flower2"
     },
     {
       id: "tratamientos-faciales",
       name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
-    },
-    {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      description: "Cuidados faciales personalizados para cada tipo de piel. Limpieza profunda, hidratación intensiva y tratamientos antiedad con productos profesionales. Tu piel lucirá radiante y rejuvenecida.",
+      benefits: [
+        "Análisis personalizado de tu piel",
+        "Productos de cosmética profesional",
+        "Resultados visibles desde la primera sesión"
+      ],
+      icon: "Heart"
     },
     {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      description: "Cuidado completo de manos y pies con técnicas profesionales. Esmaltado perfecto, tratamiento de cutículas y hidratación profunda. Manos y pies impecables que reflejan tu estilo.",
+      benefits: [
+        "Acabado impecable y duradero",
+        "Esmaltes de alta calidad",
+        "Tratamiento hidratante incluido"
+      ],
+      icon: "Hand"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "tratamientos-capilares",
+      name: "Tratamientos Capilares",
+      description: "Recupera la salud y brillo de tu cabello con nuestros tratamientos intensivos. Keratina, botox capilar, hidratación profunda y reparación de puntas. Pelo sedoso, fuerte y luminoso.",
+      benefits: [
+        "Reparación profunda del cabello",
+        "Brillo y suavidad inmediatos",
+        "Protección y nutrición duradera"
+      ],
+      icon: "Sparkles"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
+      id: "depilacion",
+      name: "Depilación Profesional",
+      description: "Servicio de depilación con cera de calidad para todo el cuerpo. Técnica cuidadosa que respeta tu piel y consigue resultados duraderos. Piel suave y sin irritaciones.",
+      benefits: [
+        "Cera de alta calidad hipoalergénica",
+        "Técnica profesional sin dolor",
+        "Resultados duraderos y piel suave"
+      ],
+      icon: "Flower2"
     },
+    {
+      id: "asesoria-imagen",
+      name: "Asesoría de Imagen",
+      description: "Te guiamos para encontrar el estilo que mejor te sienta. Analizamos tus rasgos, estilo de vida y preferencias para crear tu look ideal. Siempre acertamos con lo que te favorece.",
+      benefits: [
+        "Análisis personalizado de tu estilo",
+        "Recomendaciones adaptadas a ti",
+        "Resultados que te harán sentir segura"
+      ],
+      icon: "Eye"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotras",
+      description: "Llámanos al 608 00 40 19 o escríbenos por WhatsApp. Te atenderemos personalmente para reservar tu cita en el horario que mejor te venga. Somos flexibles y nos adaptamos a ti."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Consulta Personalizada",
+      description: "Analizamos tu cabello, piel y estilo para entender exactamente qué buscas. Te asesoramos profesionalmente sobre el color, corte o tratamiento que mejor se adapta a tus necesidades y te mostramos opciones."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Servicio Profesional",
+      description: "Realizamos tu servicio con productos premium y técnicas actualizadas. Trabajamos con precisión y cuidado para conseguir exactamente el resultado que deseas, prestando atención a cada detalle."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Disfruta del Resultado",
+      description: "Sales de nuestro centro luciendo espectacular y sintiéndote renovada. Te damos consejos personalizados de mantenimiento y te esperamos en tu próxima visita. Nuestras clientas siempre repiten."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "4.8 Estrellas en Google",
+      description: "Más de 21 clientas reales nos avalan con sus opiniones. Destacan nuestra profesionalidad, los resultados exactos que conseguimos y que somos su sitio de confianza. Una vez nos conoces, no cambias.",
+      icon: "Sparkles"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Expertas en Color Natural",
+      description: "Estefanía es especialista en coloración y siempre acierta con el tono perfecto para cada clienta. Te asesoramos profesionalmente y conseguimos resultados naturales que realzan tu belleza auténtica.",
+      icon: "Flower2"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Cortamos Lo Que Pides",
+      description: "Nuestras clientas destacan que cortamos exactamente lo que solicitan. Escuchamos tus necesidades, entendemos tu estilo y trabajamos con precisión para que salgas con el look que imaginabas.",
+      icon: "Zap"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Calidad a Precios Justos",
+      description: "Ofrecemos servicios profesionales con productos premium a precios económicos. Combinamos calidad, experiencia y un trato cercano que hace que nuestras clientas repitan y nos recomienden.",
+      icon: "Heart"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Estefanía (Fanny)",
+      role: "Directora y Estilista Experta en Color",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Fany Peluquería y Estética Unisex nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
     },
+    {
+      name: "Toñi",
+      role: "Estilista Profesional",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Fany Peluquería y Estética Unisex nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "Fany Peluquería y Estética Unisex - Imagen 9"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Cómo puedo pedir cita en Fany Peluquería y Estética Unisex?",
+      answer: "Puedes reservar tu cita llamando directamente al 608 00 40 19 o enviando un WhatsApp a ese mismo número. Te atenderemos personalmente para encontrar el mejor horario según tu disponibilidad. Recomendamos reservar con antelación, especialmente para servicios de coloración o peinados para eventos."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Qué servicios de coloración ofrecéis?",
+      answer: "Somos expertas en todo tipo de coloraciones: tintes naturales, mechas, balayage, babylights y correcciones de color. Estefanía es especialista en conseguir resultados naturales y te asesora personalmente sobre el tono que mejor te favorece según tu piel y estilo. Utilizamos productos de alta gama que cuidan tu cabello."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Hacéis peinados para bodas y eventos especiales?",
+      answer: "Sí, somos especialistas en peinados para todo tipo de eventos: bodas, comuniones, bautizos y celebraciones especiales. Realizamos una prueba previa para diseñar el peinado perfecto para tu ocasión. Nuestras clientas confían en nosotras para sus días más importantes y siempre quedan encantadas con los resultados."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Cuánto cuestan vuestros servicios?",
+      answer: "Nuestros precios son muy económicos y competitivos en Valdepeñas, como destacan nuestras clientas en sus reseñas. El precio varía según el servicio: corte, coloración, tratamientos o peinados. Te informamos del presupuesto exacto cuando reserves tu cita o durante la consulta personalizada. Ofrecemos calidad profesional a precios justos."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Atendéis tanto a hombres como a mujeres?",
+      answer: "Sí, Fany Peluquería y Estética Unisex es un centro para todo tipo de clientes. Ofrecemos servicios de peluquería y estética adaptados tanto a mujeres como a hombres: cortes, coloración, tratamientos capilares y faciales. Todos reciben el mismo trato profesional y personalizado."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Por qué vuestras clientas os recomiendan tanto?",
+      answer: "Contamos con 4.8 estrellas sobre 5 en Google con 21 reseñas de clientas reales. Nos valoran por nuestra profesionalidad, por cortar y teñir exactamente lo que piden, por el asesoramiento personalizado y por los resultados naturales que conseguimos. Muchas nos dicen que después de probar otras peluquerías, encontraron en nosotras su sitio de confianza y ya no cambian."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué productos utilizáis en vuestros servicios?",
+      answer: "Trabajamos exclusivamente con productos profesionales de alta calidad para garantizar los mejores resultados. Tanto en coloración como en tratamientos capilares y faciales, utilizamos marcas premium que cuidan tu cabello y piel. La calidad de nuestros productos es uno de los aspectos que más valoran nuestras clientas."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Dónde está ubicada Fany Peluquería y Estética Unisex?",
+      answer: "Estamos situadas en Valdepeñas, Ciudad Real. Para conocer nuestra ubicación exacta y cómo llegar, puedes llamarnos al 608 00 40 19 y te indicaremos cómo encontrarnos. Contamos con fácil acceso y nuestras clientas de Valdepeñas y alrededores nos visitan regularmente."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Fany Peluquería y Estética Unisex",
+    defaultTitle: "Fany Peluquería y Estética Unisex | Valdepeñas",
+    defaultDescription: "Peluquería y estética en Valdepeñas con 4.8★ en Google. Expertas en color, corte, peinados y tratamientos faciales. Calidad profesional a precios justos. ☎️ 608 00 40 19",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
+      "peluquería Valdepeñas",
+      "estética Valdepeñas",
+      "Fany Peluquería Valdepeñas",
+      "coloración Valdepeñas",
+      "corte de pelo Valdepeñas",
+      "peinados bodas Valdepeñas",
+      "tratamientos faciales Valdepeñas",
+      "peluquería unisex Valdepeñas",
+      "peluquería Ciudad Real",
       "estética Ciudad Real",
+      "mejor peluquería Valdepeñas",
+      "Estefanía peluquera Valdepeñas"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Fany Peluquería y Estética Unisex",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Salida del Peral, 1, local 4b 2, 13300 Valdepeñas, Ciudad Real, España, Valdepeñas, Ciudad Real"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
+  heroHeadline: [
+    "Tu Centro de",
+    "Belleza",
+    "en Valdepeñas"
+  ],
+  heroDescription: "En Fany Peluquería y Estética Unisex encontrarás el equilibrio perfecto entre técnica profesional y trato personalizado. Somos expertas en color natural, cortes precisos y tratamientos faciales que realzan tu belleza auténtica. Más de 21 clientes nos avalan con sus reseñas.",
+  specialty: "Color y Corte",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
+  ctaHeadline: "¿Lista para lucir radiante?",
+  ctaDescription: "Reserva tu cita en Fany Peluquería y Estética Unisex y descubre por qué nuestras clientas repiten. Te asesoramos personalmente para conseguir exactamente el look que deseas.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
@@ -300,8 +366,8 @@ export const clinic = {
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
     teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamDescription: "Experiencia y pasión al servicio de tu belleza"
+  }
 }
 
 export type Clinic = typeof clinic
